@@ -15,7 +15,7 @@ const app = express();
 const PORT =  process.env.PORT || 8080;
 
 const corsOptions = {
-    origin:true,
+    origin:["http://localhost:5173", "https://netflix-frontend-one-orpin.vercel.app"],
     credentials:true,
 }
 
